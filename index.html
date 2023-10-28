@@ -15,11 +15,23 @@
     <h2>Add Employee</h2>
     <div>
       <form onsubmit="handleSubmit(event)">
-        <input placeholder="First Name">
-        <input placeholder="Last Name">
-        <input placeholder="ID">
-        <input placeholder="Title">
-        <input placeholder="Annual Salary">
+        <input 
+        placeholder="First Name"
+        type="text"
+        id="firstName">
+        <input
+         placeholder="Last Name"
+         type="text"
+         id = "lastName">
+        <input placeholder="ID"
+        type ="text"
+        id="id">
+        <input placeholder="Title"
+        type="text"
+        id="title">
+        <input placeholder="Annual Salary"
+        type="text"
+        id="annualSalary">
         <button class ="submit-button">Submit</button>
       </div>
 
@@ -37,7 +49,7 @@
         </tr>
         </thead>
 
-        <tbody>
+        <tbody id="tableBody">
         <tr>
           <td>luke</td>
           <td>Mayor</td>
@@ -56,7 +68,7 @@
 
   </main>
 
-  <footer>
+  <footer id="footy">
     <p>Total Monthly</p>
   </footer>
 </body>
