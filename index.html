@@ -17,22 +17,28 @@
       <form onsubmit="handleSubmit(event)">
         <input 
         placeholder="First Name"
+        data-testid="firstNameInput"
         type="text"
         id="firstName">
         <input
          placeholder="Last Name"
+         data-testid="lastNameInput"
          type="text"
          id = "lastName">
         <input placeholder="ID"
+        data-testid="idInput"
         type ="text"
         id="id">
         <input placeholder="Title"
+        data-testid="titleInput"
         type="text"
         id="title">
         <input placeholder="Annual Salary"
+        data-testid="annualSalaryInput"
         type="text"
         id="annualSalary">
-        <button class ="submit-button">Submit</button>
+        <button class ="submitButton"
+        data-testid="submitButton">Submit</button>
       </div>
 
     <div>
@@ -45,22 +51,11 @@
           <th>ID</th> 
           <th>Title</th>
           <th>Annual Salary</th>
-          <th></th> 
+          <th>Delete</th> 
         </tr>
         </thead>
 
         <tbody id="tableBody">
-        <tr>
-          <td>luke</td>
-          <td>Mayor</td>
-          <td>441893</td>
-          <td>Drain Gang CEO</td>
-          <td>$45</td>
-          <td>test</td>
-          </tr>
-        <tr>
-          <td>Mason</td>
-          </tr>
           </tbody>
 
       </table>
